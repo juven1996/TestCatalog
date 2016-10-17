@@ -6,15 +6,7 @@
 <div class="clearfix"></div>
 <hr />
 
-<p><?php echo lang('welcome content view_location'); ?></p>
-<code>application/views/welcome.php</code>
 
-<div class="clearfix"><br /></div>
-
-<p><?php echo lang('welcome content controller_location'); ?></p>
-<code>application/controllers/Welcome.php</code>
-
-<div class="clearfix"><hr /></div>
 
 <p><?php echo lang('welcome content ci_docs'); ?></p>
 

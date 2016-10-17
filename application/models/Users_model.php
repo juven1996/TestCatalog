@@ -454,7 +454,9 @@ class Users_model extends CI_Model {
             if ($login_attempts > $this->config->item('login_max_attempts'))
             {
                 // too many attempts
-                return FALSE;
+                //return FALSE;
+                //if testing locally, set to true, if deploying, set to false
+                return TRUE;
             }
         }
 

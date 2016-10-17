@@ -144,7 +144,6 @@ class MY_Controller extends CI_Controller {
         {
             // remove white space if any
             $css = trim( $css );
-
             // go to next when passing empty space
             if ( empty( $css ) ) continue;
 
